@@ -1,0 +1,133 @@
+{
+    "navbar": {
+      "home": "Home",
+      "features": "Funzionalità",
+      "howItWorks": "Come funziona",
+      "pricing": "Prezzi",
+      "faq": "FAQ",
+      "login": "Accedi",
+      "startFreeTrial": "Inizia la prova gratuita"
+    },
+    "hero": {
+      "title": "Automazione delle fatture, semplice e potente.",
+      "subtitle": "Analisi di prodotto e crescita potenti e self-service per aiutarti a convertire, coinvolgere e fidelizzare più utenti. Scelto da oltre 4.000 startup.",
+      "button": "Inizia ora"
+    },
+    "features": {
+      "name": "Funzionalità",
+      "title": "La fatturazione intelligente inizia qui",
+      "subtitle": "Scopri le funzionalità basate sull'IA che automatizzano, semplificano e accelerano l’intero processo di fatturazione — così il tuo team può concentrarsi sulla crescita.",
+      "automatedData": "1. Estrazione automatica dei dati",
+      "automatedDataDescription": "Utilizza l’IA per acquisire e organizzare istantaneamente i dati delle fatture da PDF, scansioni ed email — senza inserimento manuale.",
+      "smartApproval": "2. Flussi di approvazione intelligenti",
+      "smartApprovalDescription": "Instrada le fatture alle persone giuste, imposta regole personalizzate e mantieni un processo di approvazione veloce e conforme.",
+      "financialInsights": "3. Analisi finanziarie in tempo reale",
+      "financialInsightsDescription": "Monitora lo stato delle fatture, i flussi di cassa e le tendenze con dashboard intelligenti che si aggiornano alla tua velocità.",
+      "seamlessIntegrations": "4. Integrazioni senza soluzione di continuità",
+      "seamlessIntegrationsDescription": "Connettiti al tuo ERP, CRM o software contabile in pochi clic — senza bisogno del team di sviluppo.",
+      "fraudDetection": "5. Rilevamento delle frodi con IA",
+      "fraudDetectionDescription": "Individua automaticamente duplicati, addebiti non conformi e fornitori sospetti prima dei pagamenti.",
+      "acceleratedPayments": "6. Pagamenti accelerati",
+      "acceleratedPaymentsDescription": "Automatizza la comunicazione con i fornitori e programma i pagamenti per mantenere buone relazioni e flussi di cassa sani."
+    },
+    "howItWorks": {
+      "name": "Come funziona",
+      "title": "Passaggi semplici. Risultati potenti.",
+      "subtitle": "Dalla raccolta delle fatture ai pagamenti automatizzati, scopri come semplifichiamo il tuo flusso di lavoro in pochi passaggi.",
+      "capture": "Acquisisci ed estrai i dati della fattura",
+      "captureDescription": "Scatta una foto della tua fattura con lo smartphone o carica un PDF o un'immagine. Invoice AI legge ed estrae immediatamente tutte le informazioni chiave, organizzandole con precisione — senza sforzo manuale. Veloce, semplice e senza errori.",
+      "noManualData": "Nessun inserimento manuale dei dati",
+      "captureInvoices": "Acquisisci fatture ovunque e in qualsiasi momento",
+      "fasterAndMore": "Elaborazione più rapida e precisa",
+      "automateExpense": "Automatizza la gestione delle spese",
+      "automateExpenseDescription": "Integrazione fluida con il tuo software contabile ed eliminazione del caricamento manuale. L’IA garantisce che ogni transazione venga registrata accuratamente e istantaneamente.",
+      "connectTools": "Connettiti con i tool contabili",
+      "automaticCategorization": "Categorizzazione automatica",
+      "reduceError": "Riduzione degli errori umani",
+      "realtimeInsights": "Ottieni informazioni in tempo reale",
+      "realtimeInsightsDescription": "Visualizza le spese in tempo reale e prendi decisioni aziendali informate grazie ad analisi e dashboard alimentate dall’IA.",
+      "realtimeDashboards": "Dashboard in tempo reale",
+      "customizableReports": "Report personalizzabili",
+      "aiPoweredInsights": "Approfondimenti con IA"
+    },
+    "pricing": {
+      "name": "Prezzi",
+      "title": "Trova il piano perfetto per te",
+      "subtitle": "Scegli il piano più adatto alle tue esigenze e passa a uno superiore in qualsiasi momento mentre la tua attività cresce.",
+      "plans": {
+        "Free": "Gratis",
+        "Starter": "Starter",
+        "Pro": "Pro",
+        "Business": "Business",
+        "Enterprise": "Enterprise"
+      },
+      "prices": {
+        "Free": "14 gg",
+        "Starter": "19$/mese",
+        "Pro": "49$/mese",
+        "Business": "99$/mese",
+        "Enterprise": "Personalizzato"
+      },
+      "features": {
+        "Smart OCR": "OCR Intelligente",
+        "Mobile Capture (Photo Upload)": "Acquisizione mobile (caricamento foto)",
+        "PDF Upload & Parsing": "Caricamento e analisi PDF",
+        "Automatic Categorization": "Categorizzazione automatica",
+        "Custom Categories": "Categorie personalizzate",
+        "AI Cost Classification": "Classificazione dei costi con IA",
+        "Tax Summary PDF": "PDF con riepilogo fiscale",
+        "Auto Tax Declaration": "Dichiarazione fiscale automatica",
+        "Audit Trail": "Registro di controllo",
+        "One-Click Payments": "Pagamenti con un clic",
+        "Scheduled Auto-Payments": "Pagamenti automatici programmati",
+        "Payment Link Generator": "Generatore di link di pagamento",
+        "QuickBooks, Xero, Stripe Integration": "Integrazione con QuickBooks, Xero, Stripe",
+        "API Access": "Accesso API",
+        "Custom Integration Support": "Supporto per integrazioni personalizzate",
+        "User Seats": "Utenti disponibili",
+        "Live Chat Support": "Supporto via chat live",
+        "Dedicated Success Manager": "Responsabile del successo dedicato",
+        "SLA & Compliance": "SLA e conformità"
+      },
+      "labels": {
+        "Limited": "Limitato",
+        "Unlimited": "Illimitato"
+      },
+      "button": {
+        "select": "Seleziona",
+        "selected": "Selezionato",
+        "continue": "Continua"
+      }
+    },
+    "faq": {
+      "name": "FAQ",
+      "title": "Hai domande? Abbiamo le risposte",
+      "subtitle": "Tutto quello che devi sapere sulla fatturazione intelligente con IA e l'automazione dei processi di pagamento.",
+      "firstQuestion": "Cos'è Invoice AI?",
+      "firstAnswer": "Invoice AI è una piattaforma intelligente per la fatturazione che utilizza l’intelligenza artificiale per automatizzare e semplificare l’intero processo di fatturazione e transazione per aziende di tutte le dimensioni.",
+      "secondQuestion": "Come funziona l'automazione con l'IA?",
+      "secondAnswer": "La nostra IA scansiona, elabora e convalida i dati delle fatture, riducendo l’inserimento manuale e gli errori umani. Impara dai dati passati per migliorare in velocità e precisione nel tempo.",
+      "thirdQuestion": "Invoice AI è adatto alle piccole imprese?",
+      "thirdAnswer": "Assolutamente. Invoice AI è progettato per crescere con la tua attività, offrendo strumenti flessibili per startup e grandi aziende.",
+      "fourthQuestion": "Posso integrare Invoice AI con il mio software esistente?",
+      "fourthAnswer": "Sì. Offriamo integrazioni fluide con i principali sistemi ERP, software contabili e piattaforme cloud come SAP, Oracle, Microsoft Dynamics e altri.",
+      "fifthQuestion": "Posso provare Invoice AI prima di acquistarlo?",
+      "fifthAnswer": "Certo! Puoi richiedere una demo gratuita per scoprire come Invoice AI si adatta alle esigenze della tua attività."
+    },
+    "trial": {
+      "title": "Inizia la tua prova gratuita di 14 giorni",
+      "subtitle": "Unisciti a oltre 4.000 startup che già crescono con Invoice AI.",
+      "learnMore": "Scopri di più",
+      "getStarted": "Inizia ora"
+    },
+    "footer": {
+      "description": "La piattaforma leader per l’automazione della fatturazione con sede in Germania, scelta da startup, PMI e grandi imprese in tutto il mondo.",
+      "home": "Home",
+      "features": "Funzionalità",
+      "howItWorks": "Come funziona",
+      "pricing": "Prezzi",
+      "faq": "FAQ",
+      "rightReserved": "© 2025 Invoice AI – Tutti i diritti riservati"
+    }
+  }
+  

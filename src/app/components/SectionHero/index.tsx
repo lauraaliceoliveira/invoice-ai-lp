@@ -1,22 +1,26 @@
 import { ChevronRight } from "lucide-react";
 import { GridContainer } from "../GridContainer";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export function Hero() {
+  const t = useTranslations("hero");
+
   return (
-    <section id="home" className="py-16 xl:pt-24 xl:pb-0 bg-[url('/background.svg')] bg-cover bg-center">
+    <section
+      id="home"
+      className="py-16 xl:pt-24 xl:pb-0 bg-[url('/background.svg')] bg-cover bg-center"
+    >
       <GridContainer>
         <div className="text-center flex flex-col items-center mb-16">
           <h1 className="text-4xl xl:text-6xl font-bold text-gray-900 mt-4 mb-6">
-            Beautifully Simple Invoice <br /> Automation.
+          {t("title")}
           </h1>
           <p className="text-lg/relaxed xl:text-xl/6 text-gray-600 max-w-3xl mx-auto mb-12">
-            Powerful, self-serve product and growth analytics to help you
-            convert, engage, and retain more users. Trusted by over 4,000
-            startups.
+            {t("subtitle")}
           </p>
           <button className="w-full sm:w-auto xl:w-auto flex items-center justify-center gap-3 py-4 px-7 bg-[#0283FA] rounded-lg text-lg font-medium text-white hover:bg-blue-600 transition-colors cursor-pointer">
-            Get started
+            {t("button")}
             <ChevronRight />
           </button>
         </div>

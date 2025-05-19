@@ -1,0 +1,133 @@
+{
+    "navbar": {
+      "home": "Startseite",
+      "features": "Funktionen",
+      "howItWorks": "So funktioniert’s",
+      "pricing": "Preise",
+      "faq": "FAQ",
+      "login": "Anmelden",
+      "startFreeTrial": "Kostenlos testen"
+    },
+    "hero": {
+      "title": "Einfach schöne Rechnungsautomatisierung.",
+      "subtitle": "Leistungsstarke, selbstbedienbare Produkt- und Wachstumsanalysen, die Ihnen helfen, mehr Nutzer zu gewinnen, zu binden und zu halten. Vertraut von über 4.000 Startups.",
+      "button": "Jetzt loslegen"
+    },
+    "features": {
+      "name": "Funktionen",
+      "title": "Intelligentere Rechnungen beginnen hier",
+      "subtitle": "Entdecken Sie KI-gestützte Funktionen, die Ihren gesamten Rechnungsprozess automatisieren, vereinfachen und beschleunigen – damit sich Ihr Team auf Wachstum konzentrieren kann.",
+      "automatedData": "1. Automatische Datenerfassung",
+      "automatedDataDescription": "Nutzen Sie KI, um Rechnungsdaten aus PDFs, Scans und E-Mails sofort zu erfassen und zu organisieren – ganz ohne manuelle Eingaben.",
+      "smartApproval": "2. Intelligente Freigabeprozesse",
+      "smartApprovalDescription": "Leiten Sie Rechnungen an die richtigen Personen weiter, definieren Sie eigene Regeln und halten Sie Ihren Genehmigungsprozess schnell und konform.",
+      "financialInsights": "3. Echtzeit-Finanzanalysen",
+      "financialInsightsDescription": "Verfolgen Sie Rechnungsstatus, Cashflow und Trends mit intelligenten Dashboards, die sich in Echtzeit aktualisieren.",
+      "seamlessIntegrations": "4. Nahtlose Integrationen",
+      "seamlessIntegrationsDescription": "Verbinden Sie sich mit Ihrem ERP-, CRM- oder Buchhaltungssystem mit nur wenigen Klicks – ganz ohne Entwicklerteam.",
+      "fraudDetection": "5. KI-gestützte Betrugserkennung",
+      "fraudDetectionDescription": "Erkennen Sie Duplikate, unzulässige Ausgaben und verdächtige Anbieter automatisch, bevor Zahlungen erfolgen.",
+      "acceleratedPayments": "6. Schnellere Zahlungen",
+      "acceleratedPaymentsDescription": "Automatisieren Sie die Kommunikation mit Anbietern und planen Sie Zahlungen, um Ihre Partner zufrieden und den Cashflow stabil zu halten."
+    },
+    "howItWorks": {
+      "name": "So funktioniert’s",
+      "title": "Einfache Schritte. Starke Ergebnisse.",
+      "subtitle": "Von der Rechnungserfassung bis zur automatisierten Zahlung – erleben Sie, wie wir Ihren Workflow vereinfachen.",
+      "capture": "Rechnungsdaten erfassen und extrahieren",
+      "captureDescription": "Fotografieren Sie Ihre Rechnung oder laden Sie eine PDF-/Bilddatei hoch. Invoice AI liest und extrahiert alle wichtigen Informationen automatisch – schnell, einfach und fehlerfrei.",
+      "noManualData": "Keine manuelle Dateneingabe",
+      "captureInvoices": "Rechnungen überall erfassen",
+      "fasterAndMore": "Schnellere und genauere Verarbeitung",
+      "automateExpense": "Ausgabenmanagement automatisieren",
+      "automateExpenseDescription": "Integrieren Sie sich nahtlos in Ihre Buchhaltungssoftware und verzichten Sie auf manuelles Hochladen. Unsere KI sorgt für sofortige und präzise Erfassung aller Transaktionen.",
+      "connectTools": "Mit Buchhaltungstools verbinden",
+      "automaticCategorization": "Automatische Kategorisierung",
+      "reduceError": "Weniger menschliche Fehler",
+      "realtimeInsights": "Echtzeit-Einblicke gewinnen",
+      "realtimeInsightsDescription": "Visualisieren Sie Ihre Ausgaben in Echtzeit und treffen Sie fundierte Entscheidungen mit KI-gestützten Dashboards und Analysen.",
+      "realtimeDashboards": "Echtzeit-Dashboards",
+      "customizableReports": "Anpassbare Berichte",
+      "aiPoweredInsights": "KI-gestützte Analysen"
+    },
+    "pricing": {
+      "name": "Preise",
+      "title": "Finden Sie den passenden Tarif",
+      "subtitle": "Wählen Sie den Tarif, der heute zu Ihnen passt – und upgraden Sie jederzeit, wenn Ihr Unternehmen wächst.",
+      "plans": {
+        "Free": "Kostenlos",
+        "Starter": "Starter",
+        "Pro": "Pro",
+        "Business": "Business",
+        "Enterprise": "Individuell"
+      },
+      "prices": {
+        "Free": "14 Tage",
+        "Starter": "19 $/Monat",
+        "Pro": "49 $/Monat",
+        "Business": "99 $/Monat",
+        "Enterprise": "Anfrage"
+      },
+      "features": {
+        "Smart OCR": "Intelligente Texterkennung (OCR)",
+        "Mobile Capture (Photo Upload)": "Mobiler Upload (Foto)",
+        "PDF Upload & Parsing": "PDF-Upload & -Analyse",
+        "Automatic Categorization": "Automatische Kategorisierung",
+        "Custom Categories": "Eigene Kategorien",
+        "AI Cost Classification": "KI-Kostenklassifizierung",
+        "Tax Summary PDF": "PDF-Steuerübersicht",
+        "Auto Tax Declaration": "Automatische Steuererklärung",
+        "Audit Trail": "Prüfpfad",
+        "One-Click Payments": "Zahlungen mit einem Klick",
+        "Scheduled Auto-Payments": "Geplante automatische Zahlungen",
+        "Payment Link Generator": "Zahlungslink-Generator",
+        "QuickBooks, Xero, Stripe Integration": "Integration mit QuickBooks, Xero, Stripe",
+        "API Access": "API-Zugriff",
+        "Custom Integration Support": "Individuelle Integrationsunterstützung",
+        "User Seats": "Benutzerplätze",
+        "Live Chat Support": "Live-Chat-Support",
+        "Dedicated Success Manager": "Persönlicher Kundenbetreuer",
+        "SLA & Compliance": "SLA & Compliance"
+      },
+      "labels": {
+        "Limited": "Begrenzt",
+        "Unlimited": "Unbegrenzt"
+      },
+      "button": {
+        "select": "Auswählen",
+        "selected": "Ausgewählt",
+        "continue": "Weiter"
+      }
+    },
+    "faq": {
+      "name": "FAQ",
+      "title": "Fragen? Wir haben Antworten.",
+      "subtitle": "Alles, was Sie über KI-gestützte Rechnungen und automatisierte Abrechnung wissen müssen.",
+      "firstQuestion": "Was ist Invoice AI?",
+      "firstAnswer": "Invoice AI ist eine intelligente Rechnungsplattform, die Künstliche Intelligenz nutzt, um den gesamten Rechnungs- und Zahlungsprozess für Unternehmen jeder Größe zu automatisieren und zu optimieren.",
+      "secondQuestion": "Wie funktioniert die KI-Automatisierung?",
+      "secondAnswer": "Unsere KI scannt, verarbeitet und validiert Rechnungsdaten und reduziert manuelle Eingaben sowie Fehler. Sie lernt aus bisherigen Daten und wird mit der Zeit immer schneller und genauer.",
+      "thirdQuestion": "Ist Invoice AI für kleine Unternehmen geeignet?",
+      "thirdAnswer": "Absolut. Invoice AI ist so konzipiert, dass es mit Ihrem Unternehmen wächst und sowohl Startups als auch großen Unternehmen leistungsstarke Tools bietet.",
+      "fourthQuestion": "Kann sich Invoice AI in meine bestehende Software integrieren?",
+      "fourthAnswer": "Ja. Wir bieten nahtlose Integrationen mit gängigen ERP-Systemen, Buchhaltungssoftware und Cloud-Plattformen wie SAP, Oracle, Microsoft Dynamics und weiteren.",
+      "fifthQuestion": "Kann ich Invoice AI testen, bevor ich mich entscheide?",
+      "fifthAnswer": "Natürlich! Fordern Sie eine kostenlose Demo an und sehen Sie selbst, wie Invoice AI zu Ihrem Unternehmen passt."
+    },
+    "trial": {
+      "title": "Starten Sie Ihre 14-tägige kostenlose Testphase",
+      "subtitle": "Schließen Sie sich über 4.000 Startups an, die bereits mit Invoice AI wachsen.",
+      "learnMore": "Mehr erfahren",
+      "getStarted": "Jetzt starten"
+    },
+    "footer": {
+      "description": "Die führende Plattform für Rechnungsautomatisierung aus Deutschland – vertraut von Startups, KMUs und Großunternehmen weltweit.",
+      "home": "Startseite",
+      "features": "Funktionen",
+      "howItWorks": "So funktioniert’s",
+      "pricing": "Preise",
+      "faq": "FAQ",
+      "rightReserved": "© 2025 Invoice AI – Alle Rechte vorbehalten"
+    }
+  }
+  

@@ -6,17 +6,20 @@ import { ItemMenu } from "./ItemMenu";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
-
-const menuItems = [
-  { url: "#home", title: "Home" },
-  { url: "#features", title: "Features" },
-  { url: "#how-it-works", title: "How it Works" },
-  { url: "#pricing", title: "Pricing" },
-  { url: "#faq", title: "FAQ" },
-];
+import { useTranslations } from "next-intl";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("navbar");
+
+  const menuItems = [
+    { url: "#home", title: t("home") },
+    { url: "#features", title: t("features") },
+    { url: "#how-it-works", title: t("howItWorks") },
+    { url: "#pricing", title: t("pricing") },
+    { url: "#faq", title: t("faq") },
+  ];
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -33,25 +36,36 @@ export function Header() {
             ))}
           </nav>
 
-          <button onClick={toggleMenu}>
-            <Image
-              src="/hamburger.svg"
-              width={40}
-              height={40}
-              alt="menu-hamburger"
+          <div className="flex items-center gap-3">
+            {/* LanguageSwitcher visível só no mobile */}
+            <div className="block xl:hidden">
+              <LanguageSwitcher />
+            </div>
+
+            <button
+              onClick={toggleMenu}
               className="block xl:hidden cursor-pointer"
-            />
-          </button>
+            >
+              <Image
+                src="/hamburger.svg"
+                width={40}
+                height={40}
+                alt="menu-hamburger"
+              />
+            </button>
+          </div>
         </div>
 
-        <div className="gap-9 hidden xl:flex ">
-          <button className="text-gray-600 hover:opacity-50 transition-opacity font-medium cursor-pointer">
-            Login
-          </button>
+        {/* Botões do desktop */}
+        <div className="gap-9 hidden xl:flex items-center">
+          <button className="text-gray-600 hover:opacity-50 transition-opacity font-medium cursor-pointer"></button>
 
           <button className="py-3 px-4 bg-[#0283FA] rounded-lg text-white font-semibold leading-normal hover:bg-blue-600 transition-colors cursor-pointer">
-            Start free trial
+            {t("startFreeTrial")}
           </button>
+
+          {/* LanguageSwitcher visível só no desktop */}
+          <LanguageSwitcher />
         </div>
       </GridContainer>
 

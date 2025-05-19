@@ -1,0 +1,133 @@
+{
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How it Works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Login",
+    "startFreeTrial": "Start free trial"
+  },
+  "hero": {
+    "title": "Beautifully Simple Invoice Automation.",
+    "subtitle": "Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.",
+    "button": "Get started"
+  },
+  "features": {
+    "name": "Features",
+    "title": "Smarter Invoicing Starts Here",
+    "subtitle": "Discover the AI-powered features that automate, simplify, and speed up your entire invoicing process — so your team can focus on growth.",
+    "automatedData": "1. Automated Data Extraction",
+    "automatedDataDescription": "Use AI to instantly capture and organize invoice data from PDFs, scans, and emails — no manual entry required.",
+    "smartApproval": "2. Smart Approval Flows",
+    "smartApprovalDescription": "Route invoices to the right people, set custom rules, and keep your approval process fast and compliant.",
+    "financialInsights": "3. Real-Time Financial Insights",
+    "financialInsightsDescription": "Track invoice statuses, cash flow, and trends with intelligent dashboards that update as fast as you move.",
+    "seamlessIntegrations": "4. Seamless Integrations",
+    "seamlessIntegrationsDescription": "Connect with your ERP, CRM, or accounting tools in just a few clicks — no dev team needed.",
+    "fraudDetection": "5. AI-Powered Fraud Detection",
+    "fraudDetectionDescription": "Detect duplicates, non-compliant charges, and suspicious vendors automatically before payments go out.",
+    "acceleratedPayments": "6. Accelerated Payments",
+    "acceleratedPaymentsDescription": "Automate vendor communication and schedule payments to keep your partners happy and your cash flow healthy."
+  },
+  "howItWorks": {
+    "name": "How it Works",
+    "title": "Simple Steps. Powerful Results.",
+    "subtitle": "From capturing invoices to automated payments, see how we simplify your workflow in just a few steps.",
+    "capture": "Capture and extract invoice data",
+    "captureDescription": "Take a photo of your invoice with your phone or upload a PDF or image file. AI Invoice immediately reads and extracts all key information, organizing it accurately without any manual effort. Fast, simple, and error-free.",
+    "noManualData": "No manual data entry",
+    "captureInvoices": "Capture invoices anywhere, anytime",
+    "fasterAndMore": "Faster and more accurate processing",
+    "automateExpense": "Automate expense management",
+    "automateExpenseDescription": "Seamlessly integrate with your accounting software and eliminate the hassle of manual uploads. Our AI ensures every transaction is recorded accurately and instantly.",
+    "connectTools": "Connect with accounting tools",
+    "automaticCategorization": "Automatic categorization",
+    "reduceError": "Reduce human error",
+    "realtimeInsights": "Gain real-time insights",
+    "realtimeInsightsDescription": "Visualize your expenses in real time and make informed business decisions with AI-powered analytics and dashboards.",
+    "realtimeDashboards": "Real-time dashboards",
+    "customizableReports": "Customizable reports",
+    "aiPoweredInsights": "AI-powered insights"
+  },
+  "pricing": {
+    "name": "Pricing",
+    "title": "Find Your Perfect Plan",
+    "subtitle": "Choose the plan that fits your needs today and upgrade anytime as your business evolves.",
+
+    "plans": {
+      "Free": "Free",
+      "Starter": "Starter",
+      "Pro": "Pro",
+      "Business": "Business",
+      "Enterprise": "Enterprise"
+    },
+    "prices": {
+      "Free": "14 days",
+      "Starter": "$19/mo",
+      "Pro": "$49/mo",
+      "Business": "$99/mo",
+      "Enterprise": "Custom"
+    },
+    "features": {
+      "Smart OCR": "Smart OCR",
+      "Mobile Capture (Photo Upload)": "Mobile Capture (Photo Upload)",
+      "PDF Upload & Parsing": "PDF Upload & Parsing",
+      "Automatic Categorization": "Automatic Categorization",
+      "Custom Categories": "Custom Categories",
+      "AI Cost Classification": "AI Cost Classification",
+      "Tax Summary PDF": "Tax Summary PDF",
+      "Auto Tax Declaration": "Auto Tax Declaration",
+      "Audit Trail": "Audit Trail",
+      "One-Click Payments": "One-Click Payments",
+      "Scheduled Auto-Payments": "Scheduled Auto-Payments",
+      "Payment Link Generator": "Payment Link Generator",
+      "QuickBooks, Xero, Stripe Integration": "QuickBooks, Xero, Stripe Integration",
+      "API Access": "API Access",
+      "Custom Integration Support": "Custom Integration Support",
+      "User Seats": "User Seats",
+      "Live Chat Support": "Live Chat Support",
+      "Dedicated Success Manager": "Dedicated Success Manager",
+      "SLA & Compliance": "SLA & Compliance"
+    },
+    "labels": {
+      "Limited": "Limited",
+      "Unlimited": "Unlimited"
+    },
+    "button": {
+      "select": "Select",
+      "selected": "Selected",
+      "continue": "Continue"
+    }
+  },
+  "faq": {
+    "name": "FAQ",
+    "title": "Got Questions? We’ve Got Answers",
+    "subtitle": "verything you need to know about AI-powered invoicing and automating your billing processes.",
+    "firstQuestion": "What is Invoice AI?",
+    "firstAnswer": "Invoice AI is a smart invoicing platform that uses artificial intelligence to automate and streamline the entire billing and transaction process for businesses of all sizes.",
+    "secondQuestion": "How does the AI automation work?",
+    "secondAnswer": "Our AI scans, processes, and validates invoice data, reducing manual input and human error. It learns from past data to improve accuracy and speed over time.",
+    "thirdQuestion": "Is Invoice AI suitable for small businesses?",
+    "thirdAnswer": "Absolutely. Invoice AI is designed to scale with your business, offering flexible tools that support both startups and large enterprises.",
+    "fourthQuestion": "Can Invoice AI integrate with my existing software?",
+    "fourthAnswer": "Yes. We offer seamless integrations with popular ERP systems, accounting software, and cloud platforms like SAP, Oracle, Microsoft Dynamics, and more.",
+    "fifthQuestion": "Can I try Invoice AI before committing?",
+    "fifthAnswer": "Of course! You can request a free demo to explore how Invoice AI fits your business needs."
+  },
+  "trial": {
+    "title": "Start your 14-day free trial",
+    "subtitle": "Join over 4,000+ startups already growing with Invoice AI.",
+    "learnMore": "Learn more",
+    "getStarted": "Get started"
+  },
+  "footer": {
+    "description": "The leading invoicing automation platform based in Germany, trusted by startups, SMEs, and large enterprises worldwide.",
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How it Works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "rightReserved": "© 2025 Invoice AI – All Right Reserved"
+  }
+}

@@ -10,8 +10,11 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
+  const t = useTranslations("footer");
+
   return (
     <footer className="py-12 xl:pt-16">
       <GridContainer>
@@ -21,11 +24,7 @@ export function Footer() {
               <h2 className="text-2xl font-bold text-gray-900 mb-2">
                 Invoice AI
               </h2>
-              <p className="text-gray-600 text-sm">
-                AI Invoice – The leading invoicing automation platform based in
-                Germany, trusted by startups, SMEs, and large enterprises
-                worldwide.
-              </p>
+              <p className="text-gray-600 text-sm">{t("description")}</p>
             </div>
 
             <div className="flex flex-col gap-4 text-gray-900">
@@ -65,23 +64,23 @@ export function Footer() {
           <div className="flex flex-col md:flex-row md:justify-between md:items-center text-sm text-gray-600 gap-4">
             <div className="flex flex-wrap gap-4">
               <a id="home" href="#" className="hover:text-gray-900">
-                Home
+                {t("home")}
               </a>
               <a id="features" href="#" className="hover:text-gray-900">
-                Features
+                {t("features")}
               </a>
               <a id="how-it-works" href="#" className="hover:text-gray-900">
-                How it Works
+                {t("howItWorks")}
               </a>
               <a id="pricing" href="#" className="hover:text-gray-900">
-                Pricing
+                {t("pricing")}
               </a>
               <a id="faq" href="#" className="hover:text-gray-900">
-                FAQ
+                {t("faq")}
               </a>
             </div>
             <p className="text-xs text-gray-500 mt-2 md:mt-0">
-              © 2025 Invoice AI – All Right Reserved
+              {t("rightReserved")}
             </p>
           </div>
         </div>

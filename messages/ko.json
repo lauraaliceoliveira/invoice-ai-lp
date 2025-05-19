@@ -1,0 +1,133 @@
+{
+    "navbar": {
+      "home": "홈",
+      "features": "기능",
+      "howItWorks": "작동 방식",
+      "pricing": "요금제",
+      "faq": "자주 묻는 질문",
+      "login": "로그인",
+      "startFreeTrial": "무료 체험 시작하기"
+    },
+    "hero": {
+      "title": "아름답고 간편한 청구 자동화",
+      "subtitle": "스스로 실행되는 강력한 분석 기능으로 더 많은 사용자를 전환, 참여, 유지하세요. 전 세계 4,000개 이상의 스타트업이 신뢰합니다.",
+      "button": "시작하기"
+    },
+    "features": {
+      "name": "기능",
+      "title": "더 똑똑한 청구, 지금 시작하세요",
+      "subtitle": "AI 기반 기능으로 청구 프로세스를 자동화하고 간소화하며 가속화하세요 — 팀은 성장을 위해 집중할 수 있습니다.",
+      "automatedData": "1. 자동 데이터 추출",
+      "automatedDataDescription": "AI를 통해 PDF, 스캔, 이메일에서 즉시 청구 데이터 캡처 및 정리 — 수작업 필요 없음.",
+      "smartApproval": "2. 스마트 승인 프로세스",
+      "smartApprovalDescription": "적절한 담당자에게 자동으로 전달하고, 맞춤 규칙을 설정하여 빠르고 준수하는 승인 흐름을 유지하세요.",
+      "financialInsights": "3. 실시간 재무 인사이트",
+      "financialInsightsDescription": "청구 상태, 현금 흐름, 추세를 지능형 대시보드로 실시간 추적하세요.",
+      "seamlessIntegrations": "4. 매끄러운 통합",
+      "seamlessIntegrationsDescription": "ERP, CRM 또는 회계 도구와 몇 번의 클릭만으로 연결 — 개발팀 필요 없음.",
+      "fraudDetection": "5. AI 기반 사기 탐지",
+      "fraudDetectionDescription": "중복, 비정상적인 청구, 의심스러운 공급업체를 자동으로 감지하여 사전에 방지합니다.",
+      "acceleratedPayments": "6. 빠른 결제 처리",
+      "acceleratedPaymentsDescription": "공급업체와의 커뮤니케이션을 자동화하고, 결제를 예약하여 파트너는 만족하고 자금 흐름은 안정적으로 유지됩니다."
+    },
+    "howItWorks": {
+      "name": "작동 방식",
+      "title": "간단한 단계, 강력한 결과",
+      "subtitle": "청구서 캡처부터 자동 결제까지, 단 몇 단계로 업무 흐름을 간소화하는 방법을 확인하세요.",
+      "capture": "청구서 데이터 캡처 및 추출",
+      "captureDescription": "휴대폰으로 청구서를 촬영하거나 PDF/이미지 파일을 업로드하세요. AI Invoice는 즉시 핵심 정보를 읽고 정확하게 정리합니다. 빠르고 간편하며 오류 없이 진행됩니다.",
+      "noManualData": "수작업 데이터 입력 없음",
+      "captureInvoices": "언제 어디서나 청구서 캡처",
+      "fasterAndMore": "더 빠르고 정확한 처리",
+      "automateExpense": "비용 관리 자동화",
+      "automateExpenseDescription": "회계 소프트웨어와 원활히 통합되어 수동 업로드의 번거로움을 없애고, 모든 거래가 정확하고 즉시 기록됩니다.",
+      "connectTools": "회계 도구와 연결",
+      "automaticCategorization": "자동 분류",
+      "reduceError": "사람의 실수 감소",
+      "realtimeInsights": "실시간 인사이트 확보",
+      "realtimeInsightsDescription": "실시간으로 비용을 시각화하고, AI 분석 및 대시보드를 통해 비즈니스 결정을 효율적으로 내릴 수 있습니다.",
+      "realtimeDashboards": "실시간 대시보드",
+      "customizableReports": "맞춤형 보고서",
+      "aiPoweredInsights": "AI 기반 인사이트"
+    },
+    "pricing": {
+      "name": "요금제",
+      "title": "당신에게 딱 맞는 요금제를 찾으세요",
+      "subtitle": "지금 필요한 요금제를 선택하고, 비즈니스가 성장함에 따라 언제든지 업그레이드하세요.",
+      "plans": {
+        "Free": "무료",
+        "Starter": "스타터",
+        "Pro": "프로",
+        "Business": "비즈니스",
+        "Enterprise": "엔터프라이즈"
+      },
+      "prices": {
+        "Free": "14일",
+        "Starter": "$19/월",
+        "Pro": "$49/월",
+        "Business": "$99/월",
+        "Enterprise": "맞춤형"
+      },
+      "features": {
+        "Smart OCR": "스마트 OCR",
+        "Mobile Capture (Photo Upload)": "모바일 캡처 (사진 업로드)",
+        "PDF Upload & Parsing": "PDF 업로드 및 분석",
+        "Automatic Categorization": "자동 분류",
+        "Custom Categories": "맞춤 카테고리",
+        "AI Cost Classification": "AI 비용 분류",
+        "Tax Summary PDF": "세금 요약 PDF",
+        "Auto Tax Declaration": "자동 세금 신고",
+        "Audit Trail": "감사 추적",
+        "One-Click Payments": "원클릭 결제",
+        "Scheduled Auto-Payments": "예약 자동 결제",
+        "Payment Link Generator": "결제 링크 생성기",
+        "QuickBooks, Xero, Stripe Integration": "QuickBooks, Xero, Stripe 통합",
+        "API Access": "API 접근",
+        "Custom Integration Support": "맞춤형 통합 지원",
+        "User Seats": "사용자 수",
+        "Live Chat Support": "실시간 채팅 지원",
+        "Dedicated Success Manager": "전담 성공 매니저",
+        "SLA & Compliance": "SLA 및 규정 준수"
+      },
+      "labels": {
+        "Limited": "제한됨",
+        "Unlimited": "무제한"
+      },
+      "button": {
+        "select": "선택",
+        "selected": "선택됨",
+        "continue": "계속"
+      }
+    },
+    "faq": {
+      "name": "자주 묻는 질문",
+      "title": "궁금한 점이 있으신가요? 저희가 도와드릴게요.",
+      "subtitle": "AI 기반 청구 및 자동화된 청구 프로세스에 대해 알아야 할 모든 것.",
+      "firstQuestion": "Invoice AI란 무엇인가요?",
+      "firstAnswer": "Invoice AI는 인공지능을 활용하여 모든 청구 및 거래 과정을 자동화하고 간소화하는 스마트 청구 플랫폼입니다.",
+      "secondQuestion": "AI 자동화는 어떻게 작동하나요?",
+      "secondAnswer": "AI가 청구 데이터를 스캔, 처리 및 검증하여 수작업 입력과 오류를 줄입니다. 과거 데이터를 학습하여 시간이 지날수록 정확성과 속도가 향상됩니다.",
+      "thirdQuestion": "Invoice AI는 소규모 기업에도 적합한가요?",
+      "thirdAnswer": "물론입니다. Invoice AI는 스타트업부터 대기업까지 모두를 지원할 수 있도록 유연하게 설계되었습니다.",
+      "fourthQuestion": "기존 소프트웨어와 통합할 수 있나요?",
+      "fourthAnswer": "네, SAP, Oracle, Microsoft Dynamics 등과 같은 ERP 시스템 및 회계/클라우드 플랫폼과 원활하게 통합됩니다.",
+      "fifthQuestion": "구매 전에 체험해볼 수 있나요?",
+      "fifthAnswer": "물론입니다! 무료 데모를 요청하셔서 Invoice AI가 비즈니스에 어떻게 도움이 되는지 체험해보세요."
+    },
+    "trial": {
+      "title": "14일 무료 체험 시작하기",
+      "subtitle": "이미 4,000개 이상의 스타트업이 Invoice AI와 함께 성장하고 있습니다.",
+      "learnMore": "자세히 알아보기",
+      "getStarted": "시작하기"
+    },
+    "footer": {
+      "description": "독일에 본사를 둔 선도적인 청구 자동화 플랫폼. 전 세계 스타트업, 중소기업, 대기업의 신뢰를 받고 있습니다.",
+      "home": "홈",
+      "features": "기능",
+      "howItWorks": "작동 방식",
+      "pricing": "요금제",
+      "faq": "자주 묻는 질문",
+      "rightReserved": "© 2025 Invoice AI – 모든 권리 보유"
+    }
+  }
+  

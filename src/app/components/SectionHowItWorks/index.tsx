@@ -1,66 +1,66 @@
 import Image from "next/image";
 import { GridContainer } from "../GridContainer";
 import { ItemHowItWorks } from "./ItemHowItWorks";
+import { useTranslations } from "next-intl";
 
-const sections = [
-  {
-    title: "Capture and extract invoice data",
-    description:
-      "Take a photo of your invoice with your phone or upload a PDF or image file. AI Invoice immediately reads and extracts all key information, organizing it accurately without any manual effort. Fast, simple, and error-free.",
-    features: [
-      "No manual data entry",
-      "Capture invoices anywhere, anytime",
-      "Faster and more accurate processing",
-    ],
-    imageSrc: "/how-it-works-1.svg",
-    imageLeft: false,
-    imageWidth: 377,
-    imageHeight: 445,
-  },
-  {
-    title: "Automate expense management",
-    description:
-      "Seamlessly integrate with your accounting software and eliminate the hassle of manual uploads. Our AI ensures every transaction is recorded accurately and instantly.",
-    features: [
-      "Connect with accounting tools",
-      "Automatic categorization",
-      "Reduce human error",
-    ],
-    imageSrc: "/how-it-works-2.svg",
-    imageLeft: true,
-    imageWidth: 458,
-    imageHeight: 398,
-  },
-  {
-    title: "Gain real-time insights",
-    description:
-      "Visualize your expenses in real time and make informed business decisions with AI-powered analytics and dashboards.",
-    features: [
-      "Real-time dashboards",
-      "Customizable reports",
-      "AI-powered insights",
-    ],
-    imageSrc: "/how-it-works-3.svg",
-    imageLeft: false,
-    imageWidth: 578,
-    imageHeight: 360,
-  },
-];
 
 export function HowItWorks() {
+  const t = useTranslations("howItWorks");
+
+  const sections = [
+    {
+      title: t("capture"),
+      description: t("captureDescription"),
+      features: [
+        t("noManualData"),
+        t("captureInvoices"),
+        t("fasterAndMore"),
+      ],
+      imageSrc: "/how-it-works-1.svg",
+      imageLeft: false,
+      imageWidth: 377,
+      imageHeight: 445,
+    },
+    {
+      title: t("automateExpense"),
+      description: t("automateExpenseDescription"),
+      features: [
+        t("connectTools"),
+        t("automaticCategorization"),
+        t("reduceError"),
+      ],
+      imageSrc: "/how-it-works-2.svg",
+      imageLeft: true,
+      imageWidth: 458,
+      imageHeight: 398,
+    },
+    {
+      title: t("realtimeInsights"),
+      description: t("realtimeInsightsDescription"),
+      features: [
+        t("realtimeDashboards"),
+        t("customizableReports"),
+        t("aiPoweredInsights"),
+      ],
+      imageSrc: "/how-it-works-3.svg",
+      imageLeft: false,
+      imageWidth: 578,
+      imageHeight: 360,
+    },
+  ];
+
   return (
     <section id="how-it-works">
       <GridContainer>
         <div className="text-center py-16 xl:py-24">
           <span className="inline-block py-1 px-3 mb-6 bg-[#0283FA] rounded-2xl text-sm/snug text-white">
-            How it Works
+            {t("name")}
           </span>
           <h2 className="text-3xl xl:text-4xl font-semibold text-gray-900 mt-4 mb-6">
-            Simple Steps. Powerful Results.
+          {t("title")}
           </h2>
           <p className="mx-auto text-lg/relaxed xl:text-xl/normal text-gray-600 max-w-3xl">
-            From capturing invoices to automated payments, see how we simplify
-            your workflow in just a few steps.
+          {t("subtitle")}
           </p>
         </div>
 

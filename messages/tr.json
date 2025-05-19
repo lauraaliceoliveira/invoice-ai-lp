@@ -1,0 +1,133 @@
+{
+    "navbar": {
+      "home": "Ana Sayfa",
+      "features": "Özellikler",
+      "howItWorks": "Nasıl Çalışır",
+      "pricing": "Fiyatlandırma",
+      "faq": "SSS",
+      "login": "Giriş Yap",
+      "startFreeTrial": "Ücretsiz Denemeye Başla"
+    },
+    "hero": {
+      "title": "Göz Alıcı ve Basit Fatura Otomasyonu.",
+      "subtitle": "Kendin kullanabileceğin güçlü ürün ve büyüme analizleriyle kullanıcı dönüşümünü, etkileşimini ve sadakatini artırın. 4.000’den fazla girişim tarafından güveniliyor.",
+      "button": "Başla"
+    },
+    "features": {
+      "name": "Özellikler",
+      "title": "Akıllı Faturalandırma Burada Başlar",
+      "subtitle": "Faturalandırma sürecinizi otomatikleştiren, basitleştiren ve hızlandıran yapay zekâ destekli özellikleri keşfedin — böylece ekibiniz büyümeye odaklanabilir.",
+      "automatedData": "1. Otomatik Veri Çıkarımı",
+      "automatedDataDescription": "PDF'lerden, taramalardan ve e-postalardan fatura verilerini anında yakalayın ve düzenleyin — manuel girişe gerek yok.",
+      "smartApproval": "2. Akıllı Onay Süreçleri",
+      "smartApprovalDescription": "Faturaları doğru kişilere yönlendirin, özel kurallar tanımlayın ve onay sürecinizi hızlı ve uyumlu tutun.",
+      "financialInsights": "3. Gerçek Zamanlı Finansal Görünüm",
+      "financialInsightsDescription": "Fatura durumlarını, nakit akışını ve trendleri akıllı panolarla takip edin — anında güncellenir.",
+      "seamlessIntegrations": "4. Sorunsuz Entegrasyonlar",
+      "seamlessIntegrationsDescription": "ERP, CRM veya muhasebe araçlarını birkaç tıklamayla bağlayın — geliştiriciye ihtiyaç yok.",
+      "fraudDetection": "5. Yapay Zekâ Destekli Dolandırıcılık Tespiti",
+      "fraudDetectionDescription": "Ödemeden önce yinelenen, uyumsuz ya da şüpheli işlemleri otomatik olarak tespit edin.",
+      "acceleratedPayments": "6. Hızlandırılmış Ödemeler",
+      "acceleratedPaymentsDescription": "Tedarikçi iletişimini otomatikleştirin ve ödemeleri zamanlayarak iş ortaklarınızı memnun, nakit akışınızı sağlıklı tutun."
+    },
+    "howItWorks": {
+      "name": "Nasıl Çalışır",
+      "title": "Basit Adımlar. Güçlü Sonuçlar.",
+      "subtitle": "Fatura yakalamadan otomatik ödemelere kadar iş akışınızı sadece birkaç adımda nasıl sadeleştirdiğimizi görün.",
+      "capture": "Fatura verilerini yakalayın ve çıkarın",
+      "captureDescription": "Faturanızı telefonunuzla fotoğraflayın ya da bir PDF veya görsel yükleyin. AI Invoice tüm önemli bilgileri anında okuyup çıkarır, düzenler — manuel müdahale gerekmez. Hızlı, kolay ve hatasız.",
+      "noManualData": "Manuel veri girişi yok",
+      "captureInvoices": "Faturaları her zaman, her yerde yakalayın",
+      "fasterAndMore": "Daha hızlı ve daha doğru işlem",
+      "automateExpense": "Gider yönetimini otomatikleştirin",
+      "automateExpenseDescription": "Muhasebe yazılımınızla sorunsuz bir şekilde entegre olur, manuel yükleme zahmetini ortadan kaldırır. Yapay zekâmız her işlemi anında ve doğru bir şekilde kaydeder.",
+      "connectTools": "Muhasebe araçlarıyla bağlantı kurun",
+      "automaticCategorization": "Otomatik kategorilendirme",
+      "reduceError": "İnsan hatasını azaltın",
+      "realtimeInsights": "Gerçek zamanlı analiz kazanın",
+      "realtimeInsightsDescription": "Giderlerinizi anlık olarak görselleştirin ve yapay zekâ destekli analizlerle bilinçli iş kararları alın.",
+      "realtimeDashboards": "Gerçek zamanlı panolar",
+      "customizableReports": "Özelleştirilebilir raporlar",
+      "aiPoweredInsights": "Yapay zekâ destekli analizler"
+    },
+    "pricing": {
+      "name": "Fiyatlandırma",
+      "title": "Size Uygun Planı Bulun",
+      "subtitle": "Bugünkü ihtiyaçlarınıza uygun planı seçin, işletmeniz büyüdükçe istediğiniz zaman yükseltin.",
+      "plans": {
+        "Free": "Ücretsiz",
+        "Starter": "Başlangıç",
+        "Pro": "Pro",
+        "Business": "İşletme",
+        "Enterprise": "Kurumsal"
+      },
+      "prices": {
+        "Free": "14 gün",
+        "Starter": "$19/ay",
+        "Pro": "$49/ay",
+        "Business": "$99/ay",
+        "Enterprise": "Özel"
+      },
+      "features": {
+        "Smart OCR": "Akıllı OCR",
+        "Mobile Capture (Photo Upload)": "Mobil Yakalama (Fotoğraf Yükleme)",
+        "PDF Upload & Parsing": "PDF Yükleme ve Ayrıştırma",
+        "Automatic Categorization": "Otomatik Kategorilendirme",
+        "Custom Categories": "Özel Kategoriler",
+        "AI Cost Classification": "Yapay Zekâ Maliyet Sınıflandırması",
+        "Tax Summary PDF": "Vergi Özeti PDF",
+        "Auto Tax Declaration": "Otomatik Vergi Beyanı",
+        "Audit Trail": "Denetim Geçmişi",
+        "One-Click Payments": "Tek Tıkla Ödeme",
+        "Scheduled Auto-Payments": "Zamanlanmış Otomatik Ödemeler",
+        "Payment Link Generator": "Ödeme Bağlantısı Oluşturucu",
+        "QuickBooks, Xero, Stripe Integration": "QuickBooks, Xero, Stripe Entegrasyonu",
+        "API Access": "API Erişimi",
+        "Custom Integration Support": "Özel Entegrasyon Desteği",
+        "User Seats": "Kullanıcı Sayısı",
+        "Live Chat Support": "Canlı Sohbet Desteği",
+        "Dedicated Success Manager": "Özel Başarı Yöneticisi",
+        "SLA & Compliance": "SLA & Uyumluluk"
+      },
+      "labels": {
+        "Limited": "Sınırlı",
+        "Unlimited": "Sınırsız"
+      },
+      "button": {
+        "select": "Seç",
+        "selected": "Seçildi",
+        "continue": "Devam Et"
+      }
+    },
+    "faq": {
+      "name": "SSS",
+      "title": "Sorularınız mı var? Cevaplarımız hazır.",
+      "subtitle": "Yapay zekâ destekli faturalandırma ve otomasyon süreçleri hakkında bilmeniz gereken her şey.",
+      "firstQuestion": "Invoice AI nedir?",
+      "firstAnswer": "Invoice AI, işletmelerin fatura ve işlem süreçlerini yapay zekâ ile otomatikleştiren ve sadeleştiren akıllı bir faturalandırma platformudur.",
+      "secondQuestion": "Yapay zekâ otomasyonu nasıl çalışır?",
+      "secondAnswer": "Yapay zekâmız fatura verilerini tarar, işler ve doğrular; manuel giriş ihtiyacını ve insan hatasını azaltır. Geçmiş verilerden öğrenerek zamanla daha hızlı ve daha doğru hale gelir.",
+      "thirdQuestion": "Invoice AI küçük işletmeler için uygun mu?",
+      "thirdAnswer": "Kesinlikle. Invoice AI, küçük girişimlerden büyük kurumsal firmalara kadar her ölçekteki işletmeye uygun esnek araçlar sunar.",
+      "fourthQuestion": "Invoice AI mevcut yazılımımla entegre olur mu?",
+      "fourthAnswer": "Evet. SAP, Oracle, Microsoft Dynamics gibi popüler ERP sistemleri, muhasebe yazılımları ve bulut platformlarıyla sorunsuz entegrasyon sunuyoruz.",
+      "fifthQuestion": "Invoice AI'ı taahhüt vermeden deneyebilir miyim?",
+      "fifthAnswer": "Elbette! İşletmeniz için uygun olup olmadığını görmek için ücretsiz bir demo talep edebilirsiniz."
+    },
+    "trial": {
+      "title": "14 Günlük Ücretsiz Denemeye Başlayın",
+      "subtitle": "Invoice AI ile büyüyen 4.000+ girişime katılın.",
+      "learnMore": "Daha Fazla Bilgi",
+      "getStarted": "Hemen Başla"
+    },
+    "footer": {
+      "description": "Almanya merkezli, girişimler, KOBİ’ler ve büyük şirketler tarafından güvenilen lider faturalandırma otomasyon platformu.",
+      "home": "Ana Sayfa",
+      "features": "Özellikler",
+      "howItWorks": "Nasıl Çalışır",
+      "pricing": "Fiyatlandırma",
+      "faq": "SSS",
+      "rightReserved": "© 2025 Invoice AI – Tüm Hakları Saklıdır"
+    }
+  }
+  

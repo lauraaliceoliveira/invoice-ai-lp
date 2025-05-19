@@ -1,64 +1,71 @@
-// app/components/PricingTable.tsx
-
 "use client";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { useTranslations } from "next-intl";
 
 export default function PricingTable() {
+  const t = useTranslations("pricing");
+  const label = useTranslations("pricing.labels");
   const [selectedPlan, setSelectedPlan] = useState("Business");
 
-  const plans = [
-    { name: "Free", price: "14 days" },
-    { name: "Starter", price: "$19/mo" },
-    { name: "Pro", price: "$49/mo" },
-    { name: "Business", price: "$99/mo" },
-    { name: "Enterprise", price: "Custom" },
-  ];
+  const planKeys = ["Free", "Starter", "Pro", "Business", "Enterprise"];
+
+  const plans = planKeys.map((key) => ({
+    name: key,
+    label: t(`plans.${key}`),
+    price: t(`prices.${key}`),
+  }));
 
   const features = [
-    { name: "Smart OCR", values: [true, true, true, true, true] },
+    { key: "Smart OCR", values: [true, true, true, true, true] },
     {
-      name: "Mobile Capture (Photo Upload)",
+      key: "Mobile Capture (Photo Upload)",
       values: [true, true, true, true, true],
     },
-    { name: "PDF Upload & Parsing", values: [true, true, true, true, true] },
+    { key: "PDF Upload & Parsing", values: [true, true, true, true, true] },
     {
-      name: "Automatic Categorization",
-      values: [true, "Limited", true, true, true],
+      key: "Automatic Categorization",
+      values: [true, label("Limited"), true, true, true],
     },
-    { name: "Custom Categories", values: [true, false, true, true, true] },
-    { name: "AI Cost Classification", values: [true, false, true, true, true] },
-    { name: "Tax Summary PDF", values: [true, false, true, true, true] },
-    { name: "Auto Tax Declaration", values: [true, false, true, true, true] },
-    { name: "Audit Trail", values: [true, false, true, true, true] },
-    { name: "One-Click Payments", values: [true, false, true, true, true] },
+    { key: "Custom Categories", values: [true, false, true, true, true] },
+    { key: "AI Cost Classification", values: [true, false, true, true, true] },
+    { key: "Tax Summary PDF", values: [true, false, true, true, true] },
+    { key: "Auto Tax Declaration", values: [true, false, true, true, true] },
+    { key: "Audit Trail", values: [true, false, true, true, true] },
+    { key: "One-Click Payments", values: [true, false, true, true, true] },
     {
-      name: "Scheduled Auto-Payments",
+      key: "Scheduled Auto-Payments",
       values: [true, false, false, true, true],
     },
     {
-      name: "Payment Link Generator",
+      key: "Payment Link Generator",
       values: [true, false, false, true, true],
     },
     {
-      name: "QuickBooks, Xero, Stripe Integration",
+      key: "QuickBooks, Xero, Stripe Integration",
       values: [true, false, true, true, true],
     },
-    { name: "API Access", values: [true, false, true, true, true] },
+    { key: "API Access", values: [true, false, true, true, true] },
     {
-      name: "Custom Integration Support",
-      values: [true, false, false, "Limited", true],
+      key: "Custom Integration Support",
+      values: [true, false, false, label("Limited"), true],
     },
-    { name: "User Seats", values: ["Unlimited", "1", "1", "10", "Unlimited"] },
-    { name: "Live Chat Support", values: [true, "Limited", true, true, true] },
     {
-      name: "Dedicated Success Manager",
+      key: "User Seats",
+      values: ["1", "1", "1", "10", label("Unlimited")],
+    },
+    {
+      key: "Live Chat Support",
+      values: [label("Limited"), label("Limited"), true, true, true],
+    },
+    {
+      key: "Dedicated Success Manager",
       values: [true, false, false, false, true],
     },
-    { name: "SLA & Compliance", values: [true, false, false, false, true] },
+    { key: "SLA & Compliance", values: [true, false, false, false, true] },
   ];
 
   const renderValue = (value: boolean | string) => {
@@ -86,26 +93,25 @@ export default function PricingTable() {
                 <SwiperSlide key={plan.name}>
                   <div
                     className={`bg-white shadow-sm rounded-lg p-8 ${
-                      isSelected ? "border-2 border-[#0283FA]" : "border border-slate-200"
+                      isSelected
+                        ? "border-2 border-[#0283FA]"
+                        : "border border-slate-200"
                     }`}
                   >
                     <div className="text-xl text-[#181D27] font-semibold text-center">
-                      {plan.name}
+                      {plan.label}
                     </div>
                     <div className="text-2xl font-bold text-blue-600 text-center mt-1">
                       {plan.price}
                     </div>
 
-                    
-
                     <ul className="mt-4 space-y-2 text-base text-[#535862]">
                       {features.map((feature, idx) => (
-                        <li
-                          key={idx}
-                          className="flex justify-between pt-2"
-                        >
-                          <span>{feature.name}</span>
-                          {renderValue(feature.values[plans.indexOf(plan)])}
+                        <li key={idx} className="flex justify-between pt-2">
+                          <span>{t(`features.${feature.key}`)}</span>
+                          {renderValue(
+                            feature.values[planKeys.indexOf(plan.name)]
+                          )}
                         </li>
                       ))}
                     </ul>
@@ -118,7 +124,7 @@ export default function PricingTable() {
                           : "bg-[#D1E9FE] text-[#0283FA] font-semibold hover:bg-gray-300 cursor-pointer"
                       }`}
                     >
-                      {isSelected ? "Selected" : "Select"}
+                      {isSelected ? t("button.selected") : t("button.select")}
                     </button>
                   </div>
                 </SwiperSlide>
@@ -142,7 +148,7 @@ export default function PricingTable() {
                         isSelected ? "bg-blue-50" : ""
                       }`}
                     >
-                      <div className="text-lg font-semibold">{plan.name}</div>
+                      <div className="text-lg font-semibold">{plan.label}</div>
                       <div className="text-3xl font-bold text-[#181D27] mt-1">
                         {plan.price}
                       </div>
@@ -151,10 +157,10 @@ export default function PricingTable() {
                         className={`mt-3 px-6 py-2 rounded-lg w-full ${
                           isSelected
                             ? "bg-[#0283FA] text-white font-medium hover:bg-blue-70 cursor-pointer"
-                            : "bg-[#D1E9FE] text-[#0283FA] font-medium hover:bg-gray-300 cursor-pointer" 
+                            : "bg-[#D1E9FE] text-[#0283FA] font-medium hover:bg-gray-300 cursor-pointer"
                         }`}
                       >
-                        {isSelected ? "Selected" : "Select"}
+                        {isSelected ? t("button.selected") : t("button.select")}
                       </button>
                     </th>
                   );
@@ -162,10 +168,10 @@ export default function PricingTable() {
               </tr>
             </thead>
             <tbody>
-              {features.map((feature, featureIdx) => (
-                <tr key={feature.name}>
+              {features.map((feature) => (
+                <tr key={feature.key}>
                   <td className="p-3 border-t border-[#E9EAEB] text-base font-medium text-[#535862] text-left">
-                    {feature.name}
+                    {t(`features.${feature.key}`)}
                   </td>
                   {feature.values.map((value, index) => {
                     const isSelected = plans[index].name === selectedPlan;
@@ -187,8 +193,8 @@ export default function PricingTable() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="w-1/2 px-6 py-3 bg-[#0283FA] text-white rounded hover:bg-blue-700 cursor-pointer rounded-lg">
-            Continuar
+          <button className="w-1/2 px-6 py-3 bg-[#0283FA] text-white hover:bg-blue-700 cursor-pointer rounded-lg">
+            {t("button.continue")}
           </button>
         </div>
       </div>
